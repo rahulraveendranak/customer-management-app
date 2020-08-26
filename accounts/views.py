@@ -2,7 +2,25 @@ from django.shortcuts import render,HttpResponse,redirect
 from django.forms import inlineformset_factory
 from .models import *
 from .forms import OrderForm
+from django.contrib.auth.forms import UserCreationForm
+
 # Create your views here.
+def registerPage(request):
+    form = UserCreationForm
+
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+
+    context ={'form':form}
+    return render (request,'register.html',context)
+
+def loginPage(request):
+    context ={}
+    return render (request,'login.html',context)
+
+
 def home(request):
     orders = Order.objects.all()
     customers = Customer.objects.all()
@@ -27,7 +45,9 @@ def customer(request,pk_test):
     orders = customer.order_set.all()
     order_count = orders.count()
 
-    context = {'customer':customer,'orders':orders,'order_count':order_count}
+  
+
+    context = {'customer':customer,'orders':orders,'order_count':order_count,}
     return render(request,"customer.html",context)
 
 def createOrder(request,pk):

@@ -1,0 +1,41 @@
+[33mcommit c62aca11a21adfae19a655a5135d84abd19ac564[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Rahul <rahular60@gmail.com>
+Date:   Sun Aug 23 21:15:30 2020 +0530
+
+    added inline formsets
+
+[33mcommit fc57e29f644fb29e3e13fb0102d185ecd372a858[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Rahul <rahular60@gmail.com>
+Date:   Sun Aug 23 11:39:40 2020 +0530
+
+    create/update/delete with modelforms
+
+[33mcommit fd660feda35ec104b4e0d2cbfd5a949736a3c5c2[m
+Author: Rahul <rahular60@gmail.com>
+Date:   Sat Aug 22 16:39:32 2020 +0530
+
+    url routed to all
+
+[33mcommit ea7a0c7cb512cd87f97203d1969686a48b56e6b2[m
+Author: Rahul <rahular60@gmail.com>
+Date:   Sat Aug 22 11:40:41 2020 +0530
+
+    rendering data to templates
+
+[33mcommit 98a7ae6f1676f9b668c96d2b195f380a1618002b[m
+Author: Rahul <rahular60@gmail.com>
+Date:   Fri Aug 21 12:15:44 2020 +0530
+
+    created all models
+
+[33mcommit f6dace96d155519c43b43bfa1e6b25eec1b58cc2[m
+Author: Rahul <rahular60@gmail.com>
+Date:   Thu Aug 20 22:49:09 2020 +0530
+
+    added templates & logo
+
+[33mcommit 2846247232341b01f08b768429615387ea9254df[m
+Author: Rahul <rahular60@gmail.com>
+Date:   Thu Aug 20 18:46:19 2020 +0530
+
+    basement work
